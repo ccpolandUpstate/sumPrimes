@@ -53,13 +53,12 @@ public class SumPrimes {
         // Initialzation
         Scanner scan = new Scanner(System.in);
 
-        // Declaration of Strings
-        String sOne = scan.next();
-        String sTwo = scan.next();
+        // Declaration of Variables
+        int num1, num2;
 
         // Conversion from Strings to Ints
-        int num1 = Integer.parseInt(sOne);
-        int num2 = Integer.parseInt(sTwo);
+        num1 = Integer.parseInt(args[0]);
+        num2 = Integer.parseInt(args[1]);
 
         // Output of the sum based on user input.
         System.out.println(sumArray(num1, num2));
