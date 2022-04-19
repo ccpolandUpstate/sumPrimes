@@ -53,8 +53,12 @@ public class SumPrimes {
         // Initialzation
         Scanner scan = new Scanner(System.in);
 
-        // Declaration of Variables
+        // Declaration of Strings
         int num1, num2;
+
+        // Without Command Line, just replace args[0] & args[1] with sOne & sTwo.
+        //String sOne = scan.next(); 
+        //String sTwo = scan.next();
 
         // Conversion from Strings to Ints
         num1 = Integer.parseInt(args[0]);
