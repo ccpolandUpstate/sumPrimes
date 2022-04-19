@@ -49,19 +49,19 @@ public class SumPrimes {
 	}
 
 
-public static void main(String[] args) {
-	// Initialzation
-	Scanner scan = new Scanner(System.in);	
+	public static void main(String[] args) {
+		// Initialzation
+		Scanner scan = new Scanner(System.in);	
 
-	// Declaration of Strings
-	String sOne = scan.next();
-	String sTwo = scan.next();
+		// Declaration of Strings
+		String sOne = scan.next();
+		String sTwo = scan.next();
 
-	// Conversion from Strings to Ints
-	int num1 = Integer.parseInt(sOne);
-	int num2 = Integer.parseInt(sTwo);
+		// Conversion from Strings to Ints
+		int num1 = Integer.parseInt(sOne);
+		int num2 = Integer.parseInt(sTwo);
 
-	// Output of the sum based on user input.
-	System.out.println(sumArray(num1, num2));
+		// Output of the sum based on user input.
+		System.out.println(sumArray(num1, num2));
 	}
 }
